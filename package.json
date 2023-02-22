@@ -1,0 +1,24 @@
+{
+  "name": "adopt_pet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/scss/main.scss ./assets/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patmaj/adopt_pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patmaj/adopt_pet/issues"
+  },
+  "homepage": "https://github.com/patmaj/adopt_pet#readme",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
