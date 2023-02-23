@@ -1,0 +1,78 @@
+//--------------------
+//VARIABLES
+@use "sass:math";
+@import "functions";
+
+
+//--------------------
+//VARIABLES: COLORS
+
+//Colors: brand
+$brand-1: #827397;
+$brand-2: #5F5B5B;
+$brand-3: #E9D5CA;
+
+//Colors: worm
+$red: #FF4646;
+$red-light: #FF5E5E;
+
+//Colors: cool
+$blue: #8EB1E5;
+$pink: #F672E1;
+$purple-gray: #B6ACC5;
+
+//Colors: black, white, grey spectrum
+$white: #FFF;
+$white-darker: #F5F5F5;
+$black: #000;
+$gray-dark: #5F5B5B;
+$gray-ad: #ADA8A8;
+$linear: #C2C2C2;
+$gray-d3: #D3D3D3;
+$gray: #D9D9D9;
+$gray-c: #CAC9C9;
+$gray-d: #D8D8D8;
+
+//Colors: typography
+$color-title: $gray-dark;
+$color-text: $gray-ad;
+$color-hover: $brand-1;
+
+//Colors: states
+$color-focus: $brand-1;
+$color-disabled: $gray-d3;
+$color-info: $red-light;
+
+//--------------------
+//VARIABLES: COLORS
+
+//Fonts: families
+
+$font-family-1: Poppins, sans-serif;
+
+// Fonts: weights
+
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+
+//Fonts: line-height:
+$line-height: 1.5;
+
+//Fonts: size
+$font-size: toRem(14px);
+$font-size-sm: toRem(10px);
+$font-size-lg: toRem(18px);
+
+//Fonts: headings: size
+$h1: toRem(24px);
+$h2: toRem(18px);
+
+//---------------------------
+//VARIABLES: spacing
+//Use for paddings, margins, etc.
+
+$spacing: toRem(24px);
+$spacing-2: ($spacing * 2);
+$spacing-3: ($spacing * 3);
+$spacing-half: math.div($spacing, 2);
