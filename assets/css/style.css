@@ -307,4 +307,28 @@ template {
   display: none;
 }
 
+.brand-1 {
+  color: #827397;
+}
+
+.brand-1-bg {
+  background-color: #827397;
+}
+
+.brand-2 {
+  color: #5F5B5B;
+}
+
+.brand-2-bg {
+  background-color: #5F5B5B;
+}
+
+.brand-3 {
+  color: #E9D5CA;
+}
+
+.brand-3-bg {
+  background-color: #E9D5CA;
+}
+
 /*# sourceMappingURL=style.css.map */
