@@ -499,4 +499,120 @@ template {
   background-color: #FF5E5E;
 }
 
+.name {
+  padding: 1.7142857143rem;
+}
+
+.name-h {
+  padding-inline: 1.7142857143rem;
+}
+
+.name-v {
+  padding-top: 1.7142857143rem;
+  padding-bottom: 1.7142857143rem;
+}
+
+.name-l {
+  padding-left: 1.7142857143rem;
+}
+
+.name-r {
+  padding-right: 1.7142857143rem;
+}
+
+.name-t {
+  padding-top: 1.7142857143rem;
+}
+
+.name-b {
+  padding-bottom: 1.7142857143rem;
+}
+
+.name {
+  padding: 3.4285714286rem;
+}
+
+.name-h {
+  padding-inline: 3.4285714286rem;
+}
+
+.name-v {
+  padding-top: 3.4285714286rem;
+  padding-bottom: 3.4285714286rem;
+}
+
+.name-l {
+  padding-left: 3.4285714286rem;
+}
+
+.name-r {
+  padding-right: 3.4285714286rem;
+}
+
+.name-t {
+  padding-top: 3.4285714286rem;
+}
+
+.name-b {
+  padding-bottom: 3.4285714286rem;
+}
+
+.name {
+  padding: 5.1428571429rem;
+}
+
+.name-h {
+  padding-inline: 5.1428571429rem;
+}
+
+.name-v {
+  padding-top: 5.1428571429rem;
+  padding-bottom: 5.1428571429rem;
+}
+
+.name-l {
+  padding-left: 5.1428571429rem;
+}
+
+.name-r {
+  padding-right: 5.1428571429rem;
+}
+
+.name-t {
+  padding-top: 5.1428571429rem;
+}
+
+.name-b {
+  padding-bottom: 5.1428571429rem;
+}
+
+.name {
+  padding: 0.8571428571rem;
+}
+
+.name-h {
+  padding-inline: 0.8571428571rem;
+}
+
+.name-v {
+  padding-top: 0.8571428571rem;
+  padding-bottom: 0.8571428571rem;
+}
+
+.name-l {
+  padding-left: 0.8571428571rem;
+}
+
+.name-r {
+  padding-right: 0.8571428571rem;
+}
+
+.name-t {
+  padding-top: 0.8571428571rem;
+}
+
+.name-b {
+  padding-bottom: 0.8571428571rem;
+}
+
 /*# sourceMappingURL=style.css.map */
