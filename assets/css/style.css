@@ -623,23 +623,7 @@ template {
   font-size: 1rem;
 }
 
-.name-sm {
-  font-size: 1rem;
-}
-
-.name-lg {
-  font-size: 1rem;
-}
-
 .font-size-sm {
-  font-size: 0.7142857143rem;
-}
-
-.name-sm {
-  font-size: 0.7142857143rem;
-}
-
-.name-lg {
   font-size: 0.7142857143rem;
 }
 
@@ -647,12 +631,16 @@ template {
   font-size: 1.2857142857rem;
 }
 
-.name-sm {
-  font-size: 1.2857142857rem;
+.font-regular {
+  font-weight: 400;
 }
 
-.name-lg {
-  font-size: 1.2857142857rem;
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semi-bold {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

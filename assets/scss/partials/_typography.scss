@@ -14,23 +14,33 @@
 //E.G. font-size, font-size-sm, font-size-lg
 
 //Sass map to store font-size
-$font-size-map: (
+$font-sizes-map: (
     "font-size": $font-size,
     "font-size-sm": $font-size-sm,
     "font-size-lg": $font-size-lg
 );
 
-//@each Sass loop o generate classes
-@each $name, $size in $font-size-map {
+//@each Sass loop generate classes
+@each $name, $size in $font-sizes-map {
     .#{$name} {
         font-size: $size;
     }
+}
 
-    .#{name}-sm {
-        font-size: $size;
-    }
+//--------------------
+//TYPOGRAPHY: fonts: weights
+//E.G. font-regular, font-medium, font-semi-bold
 
-    .#{name}-lg {
-        font-size: $size;
+$font-weights-map: (
+       "font-regular": $font-regular,
+       "font-medium": $font-medium,
+       "font-semi-bold": $font-semi-bold
+);
+
+//@each Sass loop generate classes
+
+@each $name, $value in $font-weights-map {
+    .#{$name} {
+        font-weight: $value;
     }
 }
