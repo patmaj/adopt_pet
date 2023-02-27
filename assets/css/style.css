@@ -615,4 +615,131 @@ template {
   padding-bottom: 0.8571428571rem;
 }
 
+.font-family-1 {
+  font-family: Poppins, sans-serif;
+}
+
+.font-size {
+  font-size: 1rem;
+}
+
+.font-size-sm {
+  font-size: 0.7142857143rem;
+}
+
+.font-size-lg {
+  font-size: 1.2857142857rem;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.7142857143rem;
+  color: #5F5B5B;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 3.4285714286rem 0;
+}
+
+h2 {
+  font-size: 1.2857142857rem;
+  color: #5F5B5B;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 3.4285714286rem 0;
+}
+
+p {
+  margin-bottom: 1.7142857143rem;
+}
+
+ul, ol {
+  list-style-position: inside;
+  margin-bottom: 1.7142857143rem;
+  padding-left: 1.7142857143rem;
+}
+
+li {
+  margin-bottom: 1.7142857143rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+a, .link {
+  color: #FF5E5E;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+a:hover, .link:hover {
+  color: #827397;
+}
+a:focus, .link:focus {
+  outline: 1px solid #827397;
+}
+
+.link-action {
+  color: #5F5B5B;
+  font-weight: 600;
+}
+
+.link-action-icon {
+  color: #827397;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-action-text {
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=style.css.map */
