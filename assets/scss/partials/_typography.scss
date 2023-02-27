@@ -1,0 +1,36 @@
+//--------------------
+//TYPOGRAPHY
+@import "variables";
+
+//--------------------
+//TYPOGRAPHY: fonts: family
+
+.font-family-1 {
+    font-family:$font-family-1;
+}
+
+//--------------------
+//TYPOGRAPHY: fonts: sizes
+//E.G. font-size, font-size-sm, font-size-lg
+
+//Sass map to store font-size
+$font-size-map: (
+    "font-size": $font-size,
+    "font-size-sm": $font-size-sm,
+    "font-size-lg": $font-size-lg
+);
+
+//@each Sass loop o generate classes
+@each $name, $size in $font-size-map {
+    .#{$name} {
+        font-size: $size;
+    }
+
+    .#{name}-sm {
+        font-size: $size;
+    }
+
+    .#{name}-lg {
+        font-size: $size;
+    }
+}
