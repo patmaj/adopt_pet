@@ -756,7 +756,7 @@ a:focus, .link:focus {
   font-style: normal;
   font-display: block;
 }
-[class^=at-icon-], [class*=" at-icon-"] {
+[class^=at-icon-], [class*=at-icon-] {
   font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
