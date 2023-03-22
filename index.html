@@ -5,17 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adopt Pet</title>
+    <title>Adopt a Tree</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Playfair+Display&display=swap"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/styleguide.css">
     <script src="./assets/js/style-guide.js" async defer></script>
 </head>
 <body>
+
 <main class="main">
     <div class="styleguide">
         <nav class="styleguide-nav">
@@ -46,10 +48,12 @@
                         class="styleguide-link-label">JS</span></a></li>
             </ul>
         </nav>
+
         <section class="styleguide-content">
             <section id="styleguide-section-guidelines" class="styleguide-section">
                 <h2>Guidelines</h2>
             </section>
+
             <section id="styleguide-section-colors" class="styleguide-section">
                 <h2>Colors</h2>
                 <div class="styleguide-section-docs">
@@ -58,8 +62,9 @@
                     <p>To incorporate a new color, add the color variable to the <em>variables</em> partial and refer to
                         it in the Sass map inside the <em>colors</em> partial.</p>
                 </div>
+
                 <div class="styleguide-section-block">
-                    <div class="styleguide-section-files">Reference files: _variables.scss</div>
+                    <div class="styleguide-section-files">Reference files: variables.scss</div>
 
                     <h3>Colors: Brand</h3>
                     <div class="styleguide-demo-block">
@@ -69,158 +74,155 @@
                                 <div class="styleguide-box-demo brand-1-bg"></div>
                             </div>
                             <div>
+                                <div class="brand-1-light">$brand-1-light</div>
+                                <div class="styleguide-box-demo brand-1-light-bg"></div>
+                            </div>
+                            <div>
+                                <div class="brand-1-x-light">$brand-1-x-light</div>
+                                <div class="styleguide-box-demo brand-1-x-light-bg"></div>
+                            </div>
+                            <div>
                                 <div class="brand-2">$brand-2</div>
                                 <div class="styleguide-box-demo brand-2-bg"></div>
                             </div>
                             <div>
-                                <div class="brand-3">$brand-3</div>
-                                <div class="styleguide-box-demo brand-3-bg"></div>
+                                <div class="brand-2-light">$brand-2-light</div>
+                                <div class="styleguide-box-demo brand-2-light-bg"></div>
+                            </div>
+                        </div>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div>
+                    <h3>Colors: Warm</h3>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each styleguide-demo-each--colors">
+                            <div>
+                                <div class="red-crimson">$red-crimson</div>
+                                <div class="styleguide-box-demo red-crimson-bg"></div>
                             </div>
                         </div> <!-- /.styleguide-demo-each -->
                         <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
                         </button>
                     </div> <!-- /.styleguide-demo-block -->
 
-                    <h3>Colors: Warm</h3>
+                    <h3>Colors: Cool</h3>
                     <div class="styleguide-demo-block">
                         <div class="styleguide-demo-each styleguide-demo-each--colors">
                             <div>
-                                <div class="red">$red</div>
-                                <div class="styleguide-box-demo red-bg"></div>
+                                <div class="blue-aqua">$blue-aqua</div>
+                                <div class="styleguide-box-demo blue-aqua-bg"></div>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h3>Colors: Black, White</h3>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each styleguide-demo-each--colors">
+                            <div>
+                                <div class="black">$black</div>
+                                <div class="styleguide-box-demo black-bg"></div>
                             </div>
                             <div>
-                            <div class="red-light">$red-light</div>
-                            <div class="styleguide-box-demo red-light-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
+                                <div class="white">$white</div>
+                                <div class="styleguide-box-demo white-bg"></div>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
 
-                <h3>Colors: Cool</h3>
-                <div class="styleguide-demo-block">
-                    <div class="styleguide-demo-each styleguide-demo-each--colors">
-                        <div>
-                            <div class="blue">$blue</div>
-                            <div class="styleguide-box-demo blue-bg"></div>
-                        </div>
-                        <div>
-                            <div class="pink">$pink</div>
-                            <div class="styleguide-box-demo pink-bg"></div>
-                        </div>
-                        <div>
-                            <div class="purple-gray">$purple-gray</div>
-                            <div class="styleguide-box-demo purple-gray-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
+                    <h3>Colors: Gray Spectrum</h3>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each styleguide-demo-each--colors">
+                            <div>
+                                <div class="gray-coal">$gray-coal</div>
+                                <div class="styleguide-box-demo gray-coal-bg"></div>
+                            </div>
+                            <div>
+                                <div class="gray-lead">$gray-lead</div>
+                                <div class="styleguide-box-demo gray-lead-bg"></div>
+                            </div>
+                            <div>
+                                <div class="gray-cement">$gray-cement</div>
+                                <div class="styleguide-box-demo gray-cement-bg"></div>
+                            </div>
+                            <div>
+                                <div class="gray-titanium">$gray-titanium</div>
+                                <div class="styleguide-box-demo gray-titanium-bg"></div>
+                            </div>
+                            <div>
+                                <div class="gray-cloud">$gray-cloud</div>
+                                <div class="styleguide-box-demo gray-cloud-bg"></div>
+                            </div>
+                            <div>
+                                <div class="gray-mist">$gray-mist</div>
+                                <div class="styleguide-box-demo gray-mist-bg"></div>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
 
-                <h3>Colors: Black, White</h3>
-                <div class="styleguide-demo-block">
-                    <div class="styleguide-demo-each styleguide-demo-each--colors">
-                        <div>
-                            <div class="black">$black</div>
-                            <div class="styleguide-box-demo black-bg"></div>
-                        </div>
-                        <div>
-                            <div class="white">$white</div>
-                            <div class="styleguide-box-demo white-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
+                    <h3>Colors: Typography</h3>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each styleguide-demo-each--colors">
+                            <div>
+                                <div class="color-font">$color-font</div>
+                                <div class="styleguide-box-demo color-font-bg"></div>
+                            </div>
+                            <div>
+                                <div class="color-link">$color-link</div>
+                                <div class="styleguide-box-demo color-link-bg"></div>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
 
-                <h3>Colors: Gray Spectrum</h3>
-                <div class="styleguide-demo-block">
-                    <div class="styleguide-demo-each styleguide-demo-each--colors">
-                        <div>
-                            <div class="white-darker">$white-darker</div>
-                            <div class="styleguide-box-demo white-darker-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray-dark">$gray-dark</div>
-                            <div class="styleguide-box-demo gray-dark-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray-ad">$gray-ad</div>
-                            <div class="styleguide-box-demo gray-ad-bg"></div>
-                        </div>
-                        <div>
-                            <div class="linear">$linear</div>
-                            <div class="styleguide-box-demo linear-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray-d3">$gray-d3</div>
-                            <div class="styleguide-box-demo gray-d3-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray">$gray</div>
-                            <div class="styleguide-box-demo gray-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray-c">$gray-c</div>
-                            <div class="styleguide-box-demo gray-c-bg"></div>
-                        </div>
-                        <div>
-                            <div class="gray-d">$gray-d</div>
-                            <div class="styleguide-box-demo gray-d-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-
-                <h3>Colors: Typography</h3>
-                <div class="styleguide-demo-block">
-                    <div class="styleguide-demo-each styleguide-demo-each--colors">
-                        <div>
-                            <div class="color-title">$color-title</div>
-                            <div class="styleguide-box-demo color-title-bg"></div>
-                        </div>
-                        <div>
-                            <div class="color-text">$color-text</div>
-                            <div class="styleguide-box-demo color-text-bg"></div>
-                        </div>
-                        <div>
-                            <div class="color-hover">$color-hover</div>
-                            <div class="styleguide-box-demo color-hover-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-
-                <h3>Colors: States</h3>
-                <div class="styleguide-demo-block">
-                    <div class="styleguide-demo-each styleguide-demo-each--colors">
-                        <div>
-                            <div class="color-focus">$color-focus</div>
-                            <div class="styleguide-box-demo color-focus-bg"></div>
-                        </div>
-                        <div>
-                            <div class="color-info">$color-info</div>
-                            <div class="styleguide-box-demo color-info-bg"></div>
-                        </div>
-                        <div>
-                            <div class="color-disabled">$color-disabled</div>
-                            <div class="styleguide-box-demo color-disabled-bg"></div>
-                        </div>
-                    </div> <!-- /.styleguide-demo-each -->
-                    <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-
-    </div> <!-- /.styleguide-section-block -->
-    </section>
-
+                    <h3>Colors: States</h3>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each styleguide-demo-each--colors">
+                            <div>
+                                <div class="color-error">$color-error</div>
+                                <div class="styleguide-box-demo color-error-bg"></div>
+                            </div>
+                            <div>
+                                <div class="color-success">$color-success</div>
+                                <div class="styleguide-box-demo color-success-bg"></div>
+                            </div>
+                            <div>
+                                <div class="color-info">$color-info</div>
+                                <div class="styleguide-box-demo color-info-bg"></div>
+                            </div>
+                            <div>
+                                <div class="color-disabled">$color-disabled</div>
+                                <div class="styleguide-box-demo color-disabled-bg"></div>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
+                </div>
+            </section>
             <section id="styleguide-section-spacing" class="styleguide-section">
                 <h2>Spacing</h2>
                 <div class="styleguide-section-docs">
                     <p>Use variables or classes for spacing.</p>
                     <p>Spacing helpers can be used for padding, margins, positioning elements, etc.</p>
-                    <p>The spacing variables are <code class="styleguide-code-inline">$spacing</code>, <code class="styleguide-code-inline">$spacing-2</code>, <code class="styleguide-code-inline">$spacing-3</code> and <code class="styleguide-code-inline">$spacing-half</code>.</p>
-                    <p>The default <code class="styleguide-code-inline">$spacing</code> variable's value is 10 pixels.</p>
-                    <p><code class="styleguide-code-inline">$spacing-2</code> is twice the value of <code class="styleguide-code-inline">$spacing</code> and so on.</p>
+                    <p>The spacing variables are <code class="styleguide-code-inline">$spacing</code>, <code
+                            class="styleguide-code-inline">$spacing-2</code>, <code class="styleguide-code-inline">$spacing-3</code>
+                        and <code class="styleguide-code-inline">$spacing-half</code>.</p>
+                    <p>The default <code class="styleguide-code-inline">$spacing</code> variable's value is 10 pixels.
+                    </p>
+                    <p><code class="styleguide-code-inline">$spacing-2</code> is twice the value of <code
+                            class="styleguide-code-inline">$spacing</code> and so on.</p>
                 </div>
                 <div class="styleguide-section-block">
-                    <div class="styleguide-section-files">Reference files: _globals.scss, _spacing.scss, _variables.scss</div>
+                    <div class="styleguide-section-files">Reference files: _globals.scss, _spacing.scss,
+                        _variables.scss
+                    </div>
 
                     <h3>Spacing: All Sides</h3>
                     <div class="styleguide-section-docs">
@@ -233,7 +235,8 @@
                             <div class="spacing-3">Spacing-3: All Sides</div>
                             <div class="spacing-half">Spacing-half: All Sides</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Horizontal</h3>
@@ -247,7 +250,8 @@
                             <div class="spacing-3-h">Spacing-3: Horizontal</div>
                             <div class="spacing-half-h">Spacing-half: Horizontal</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Vertical</h3>
@@ -261,7 +265,8 @@
                             <div class="spacing-3-v">Spacing-3: Vertical</div>
                             <div class="spacing-half-v">Spacing-half: Vertical</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Left</h3>
@@ -275,7 +280,8 @@
                             <div class="spacing-3-l">Spacing-3: Left</div>
                             <div class="spacing-half-l">Spacing-half: Left</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Right</h3>
@@ -289,7 +295,8 @@
                             <div class="spacing-3-r">Spacing-3: Right</div>
                             <div class="spacing-half-r">Spacing-half: Right</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Top</h3>
@@ -303,7 +310,8 @@
                             <div class="spacing-3-t">Spacing-3: Top</div>
                             <div class="spacing-half-t">Spacing-half: Top</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Bottom</h3>
@@ -317,7 +325,8 @@
                             <div class="spacing-3-b">Spacing-3: Bottom</div>
                             <div class="spacing-half-b">Spacing-half: Bottom</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Reset padding on all sides</h3>
@@ -325,7 +334,8 @@
                         <div class="styleguide-demo-each">
                             <div class="col gray-mist-bg padding-reset">Column: Reset Padding</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Spacing: Reset margins on all sides</h3>
@@ -333,43 +343,53 @@
                         <div class="styleguide-demo-each">
                             <h2 class="margin-reset">H2 Heading: Margins reset</h2>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                 </div> <!-- /.styleguide-section-block -->
             </section>
+
             <section id="styleguide-section-typography" class="styleguide-section">
                 <h2>Typography</h2>
                 <div class="styleguide-section-docs">
-                    <p>Typography consists of helper classes for text styling and basic styling for HTML elements like headings, lists and paragraphs.</p>
+                    <p>Typography consists of helper classes for text styling and basic styling for HTML elements like
+                        headings, lists and paragraphs.</p>
                 </div>
                 <div class="styleguide-section-block">
-                    <div class="styleguide-section-files">Reference files: _functions.scss, _typography.scss, _variables.scss</div>
+                    <div class="styleguide-section-files">Reference files: _functions.scss, _typography.scss,
+                        _variables.scss
+                    </div>
 
                     <h3>Typography: Font Families</h3>
                     <div class="styleguide-section-docs">
                         <p>Use a variable or class for font families.</p>
-                        <p><em>Poppins</em> is the default font for the project and is available via <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+                        <p><em>Nunito Sans</em> is the default font for the project and is available via <a
+                                href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
                     </div>
                     <div class="styleguide-demo-block">
                         <div class="styleguide-demo-each">
                             <div class="font-family-1">$font-family-1</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Font Sizes</h3>
                     <div class="styleguide-section-docs">
                         <p>Use variables or classes for font sizes.</p>
-                        <p>The base font size is in pixels and the rest use the <code class="styleguide-code-inline">px-to-percent</code> function to output pixel values as percentages.</p>
+                        <p>The base font size is in pixels and the rest use the <code class="styleguide-code-inline">px-to-percent</code>
+                            function to output pixel values as percentages.</p>
                     </div>
                     <div class="styleguide-demo-block">
                         <div class="styleguide-demo-each">
                             <div class="font-size">$font-size</div>
                             <div class="font-size-sm">$font-size-sm</div>
+                            <div class="font-size-xs">$font-size-xs</div>
                             <div class="font-size-lg">$font-size-lg</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Font Weights</h3>
@@ -379,10 +399,11 @@
                     <div class="styleguide-demo-block">
                         <div class="styleguide-demo-each">
                             <div class="font-regular">$font-regular</div>
-                            <div class="font-medium">$font-medium</div>
                             <div class="font-semi-bold">$font-semi-bold</div>
+                            <div class="font-bold">$font-bold</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Text Styles</h3>
@@ -394,7 +415,8 @@
                             <div class="text-uppercase">Text: Uppercase</div>
                             <div class="text-underline">Text: Underline</div>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Headings</h3>
@@ -402,8 +424,13 @@
                         <div class="styleguide-demo-each">
                             <h1>Heading 1</h1>
                             <h2>Heading 2</h2>
+                            <h3>Heading 3</h3>
+                            <h4>Heading 4</h4>
+                            <h5>Heading 5</h5>
+                            <h6>Heading 6</h6>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Paragraphs</h3>
@@ -412,7 +439,8 @@
                             <p>Paragraph: Here's what a paragraph of text looks like.</p>
                             <p>Paragraph: Here's what a second paragraph of text looks like.</p>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Links</h3>
@@ -420,14 +448,16 @@
                         <div class="styleguide-demo-each">
                             <a href="#">Link</a>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <div class="styleguide-demo-block">
                         <div class="styleguide-demo-each">
                             <span class="link" tabindex="0">Class to make something resemble a link</span>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <div class="styleguide-demo-block">
@@ -437,7 +467,8 @@
                                 <span class="link-action-text font-size-sm" aria-hidden="true">Read More</span>
                             </a>
                         </div> <!-- /.styleguide-demo-each -->
-                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
                     </div> <!-- /.styleguide-demo-block -->
 
                     <h3>Typography: Lists</h3>
@@ -461,17 +492,128 @@
                                 <li>List: Reset Styles: Item 3</li>
                             </ul>
                         </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code
+                        </button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                </div> <!-- /.styleguide-section-block -->
+            </section>
+            <section id="styleguide-section-icons" class="styleguide-section">
+                <h2>Icons</h2>
+                <div class="styleguide-section-docs">
+                    <p>Adopt-a-Tree's font icon set was created with the <a href="https://icomoon.io/app" target="_blank">Icomoon app</a>. It includes font icon families like <a href="https://github.com/feathericons/feather" target="_blank">Feather</a>, <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a>, <a href="https://github.com/Keyamoon/IcoMoon-Free" target="_blank">Icomoon</a> and <a href="https://github.com/stephenhutchings/typicons.font" target="_blank">Typicons</a>.</p>
+                    <p>Each icon has a class with a prefix of <code class="styleguide-code-inline">at-icon-</code>.</p>
+                    <p>To update the icon set, click the 'Import Icons' button on the <a href="https://icomoon.io/app/">Icomoon website</a> and upload the <em>selection.json</em> file from the <em>font-icon</em> folder inside the <em>assets</em> folder. Add or delete icons as needed. Download the new icon set, copy the contents of the CSS file into the <em>font-icons</em> partial and update the paths in the <code class="styleguide-code-inline">@font-face</code> rule in the file.</p>
+                    <p>Font icons which are purely decorative can be hidden from screen users using the <code class="styleguide-code-inline">aria-hidden</code> attribute.</p>
+                    <p><a href="assets/font-icon/demo.html" class="font-bold">Click here to see the list of all icons.</a></p>
+                </div>
+                <div class="styleguide-section-block">
+                    <div class="styleguide-section-files">Reference files: {FILE_NAMES}</div>
+
+                    <h3>Icons: Types</h3>
+
+                    <h4>Icons: Types: Logo</h4>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <span class="at-icon-logo"></span>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h4>Icons: Types: Arrows and Chevrons</h4>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <span class="at-icon-arrow-down"></span>
+                            <span class="at-icon-arrow-up"></span>
+                            <span class="at-icon-arrow-left"></span>
+                            <span class="at-icon-arrow-right"></span>
+                            <span class="at-icon-chevron-down"></span>
+                            <span class="at-icon-chevron-up"></span>
+                            <span class="at-icon-chevron-left"></span>
+                            <span class="at-icon-chevron-right"></span>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h4>Icons: Types: Adopt-a-Tree: Projects</h4>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <span class="at-icon-atom"></span>
+                            <span class="at-icon-droplet"></span>
+                            <span class="at-icon-earth"></span>
+                            <span class="at-icon-leaf"></span>
+                            <span class="at-icon-paw"></span>
+                            <span class="at-icon-restaurant"></span>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h4>Icons: Types: App</h4>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <span class="at-icon-cart"></span>
+                            <span class="at-icon-x"></span>
+                            <span class="at-icon-card"></span>
+                            <span class="at-icon-dollar"></span>
+                            <span class="at-icon-home"></span>
+                            <span class="at-icon-loader"></span>
+                            <span class="at-icon-map"></span>
+                            <span class="at-icon-target"></span>
+                            <span class="at-icon-user"></span>
+                            <span class="at-icon-user-x"></span>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h3>Icons: Sizes</h3>
+                    <div class="styleguide-section-docs">
+                        <p>There are 4 common icon sizes, including the default size.</p>
+                    </div>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <span class="at-icon-leaf"></span>
+                            <span class="at-icon-leaf icon-size-lg"></span>
+                            <span class="at-icon-leaf icon-size-xl"></span>
+                            <span class="at-icon-leaf icon-size-xxl"></span>
+                        </div> <!-- /.styleguide-demo-each -->
+                        <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+                    </div> <!-- /.styleguide-demo-block -->
+
+                    <h3>Icons: Spacing</h3>
+                    <div class="styleguide-section-docs">
+                        <p>Left and right spacing for icons.</p>
+                    </div>
+                    <div class="styleguide-demo-block">
+                        <div class="styleguide-demo-each">
+                            <div class="spacing-v">
+                                <span class="at-icon-leaf icon-left"></span>
+                                <span>Icon: Left: Spacing: Default</span>
+                            </div>
+
+                            <div class="spacing-v">
+                                <span class="at-icon-leaf icon-left-lg"></span>
+                                <span>Icon: Left: Spacing: Large</span>
+                            </div>
+
+                            <div class="spacing-v">
+                                <span>Icon: Right: Spacing: Default</span>
+                                <span class="at-icon-leaf icon-right"></span>
+                            </div>
+
+                            <div class="spacing-v">
+                                <span>Icon: Right: Spacing: Large</span>
+                                <span class="at-icon-leaf icon-right-lg"></span>
+                            </div>
+                        </div> <!-- /.styleguide-demo-each -->
                         <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
                     </div> <!-- /.styleguide-demo-block -->
 
                 </div> <!-- /.styleguide-section-block -->
             </section>
-
-
         </section>
+
     </div>
 </main>
-
 
 </body>
 </html>

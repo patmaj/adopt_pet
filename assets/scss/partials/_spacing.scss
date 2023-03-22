@@ -1,15 +1,15 @@
-//---------------------
-//Spacing
-@use "sass:math";
+// -----------------------------------------------
+// SPACING
+
 @import "variables";
 
-//Sass Map to store spacing value
 
+// Sass Map to store spacing values
 $spacing-map: (
-        "spacing": $spacing,
-        "spacing-2": $spacing-2,
-        "spacing-3": $spacing-3,
-        "spacing-half": $spacing-half,
+    "spacing": $spacing,
+    "spacing-2": $spacing-2,
+    "spacing-3": $spacing-3,
+    "spacing-half": $spacing-half,
 );
 
 // ---------------------------------------------
@@ -25,44 +25,42 @@ $spacing-map: (
 
 // @each Sass loop to generate classes
 
-@each $name, $value in $spacing-map {
+@each $name, $value in $spacing-map{
 
-    //spacing: all sides
-    .#{name} {
+    // Spacing: all sides
+    .#{$name} {
         padding: $value;
     }
 
-    //spacing: horizontal
-    .#{name}-h {
+    // Spacing: horizontal
+    .#{$name}-h {
         padding-inline: $value;
     }
 
-    //spacing: vertical
-    .#{name}-v {
+    // Spacing: vertical
+    .#{$name}-v {
         padding-top: $value;
-        padding-bottom: $value
-    }
-
-    //spacing: left
-    .#{name}-l {
-        padding-left: $value;
-
-    }
-
-    //spacing: right
-    .#{name}-r {
-        padding-right: $value;
-
-    }
-
-    //spacing: top
-    .#{name}-t {
-        padding-top: $value;
-    }
-
-    //spacing: bottom
-    .#{name}-b {
         padding-bottom: $value;
-
     }
+
+    // Spacing: left
+    .#{$name}-l {
+        padding-left: $value;
+    }
+
+    // Spacing: right
+    .#{$name}-r {
+        padding-right: $value;
+    }
+
+    // Spacing: top
+    .#{$name}-t {
+        padding-top: $value;
+    }
+
+    // Spacing: bottom
+    .#{$name}-b {
+        padding-bottom: $value;
+    }
+
 }

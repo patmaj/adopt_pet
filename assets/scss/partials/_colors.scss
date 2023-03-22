@@ -1,45 +1,46 @@
+// ----------------------
+// COLORS
+
 @import "./variables";
 
-//-------------------
-//Colors: Classes
-//Generates classes for colors and background colors
+// ----------------------
+// COLORS
+// Generate classes for colors and background colors
 
-//Sass Map to store color values
-
+// Sass Map to store color values
 $colors-map: (
         "brand-1": $brand-1,
+        "brand-1-light": $brand-1-light,
+        "brand-1-x-light": $brand-1-x-light,
         "brand-2": $brand-2,
-        "brand-3": $brand-3,
-        "white": $white,
-        "white-darker": $white-darker,
+        "brand-2-light": $brand-2-light,
+        "red-crimson": $red-crimson,
+        "blue-aqua": $blue-aqua,
         "black": $black,
-        "gray-dark": $gray-dark,
-        "gray-ad": $gray-ad,
-        "linear": $linear,
-        "gray-d3": $gray-d3,
-        "gray": $gray,
-        "gray-c": $gray-c,
-        "gray-d": $gray-d,
-        "blue": $blue,
-        "pink": $pink,
-        "purple-gray": $purple-gray,
-        "red": $red,
-        "red-light": $red-light,
-        "color-title": $color-title,
-        "color-text": $color-text,
-        "color-hover": $color-hover,
-        "color-focus": $color-focus,
-        "color-disabled": $color-disabled,
+        "gray-coal": $gray-coal,
+        "gray-lead": $gray-lead,
+        "gray-cement": $gray-cement,
+        "gray-titanium": $gray-titanium,
+        "gray-cloud": $gray-cloud,
+        "gray-mist": $gray-mist,
+        "white": $white,
+        "color-font": $color-font,
+        "color-link": $color-link,
+        "color-error": $color-error,
+        "color-success": $color-success,
         "color-info": $color-info,
+        "color-disabled": $color-disabled
 );
 
-//@each Sass loop to generate classes
-@each $name, $hex-value in $colors-map {
+// @each Sass loop to generate classes
+@each $name, $hex-value in $colors-map{
     .#{$name} {
         color: $hex-value;
     }
+
     .#{$name}-bg {
         background-color: $hex-value;
     }
 }
+
 
